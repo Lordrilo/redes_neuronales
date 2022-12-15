@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBB0499E-75BF-20D2-1A34-0F796E6A2FB5" name="Servicios">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:02:27 UTC</createdTime>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<engineerTo>
+<item key="CA90EF1B-E18E-3317-DEE8-93A0FF02C722" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D48497E9-C624-F170-8BA0-B2CE8C2E5F7E">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:02:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el identificador de la tupla de servicios, es una llave primaria]]></commentInRDBMS>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<engineerTo>
+<item key="CA90EF1B-E18E-3317-DEE8-93A0FF02C722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="7098C349-5505-2D1B-B9C0-F51E318936AB">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se describe el servicio]]></commentInRDBMS>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<engineerTo>
+<item key="CA90EF1B-E18E-3317-DEE8-93A0FF02C722" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="9066BAC0-6B2D-B08B-838D-8207DA00A492">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:11:33 UTC</createdTime>
+<generatorID>358A4DFE-8B29-BD67-ED17-B84134786697</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<engineerTo>
+<item key="CA90EF1B-E18E-3317-DEE8-93A0FF02C722" value="true"/>
+</engineerTo>
+<referedAttribute>25F66A1A-BA57-7592-6144-8277A69189F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72426B5A-5F30-F77B-E495-7D04A06830A9" name="Servicios PK">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:02:54 UTC</createdTime>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<engineerTo>
+<item key="CA90EF1B-E18E-3317-DEE8-93A0FF02C722" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D48497E9-C624-F170-8BA0-B2CE8C2E5F7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

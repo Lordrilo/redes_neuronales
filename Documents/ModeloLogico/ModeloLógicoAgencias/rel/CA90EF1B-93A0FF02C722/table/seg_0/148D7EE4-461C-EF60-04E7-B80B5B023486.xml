@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="148D7EE4-461C-EF60-04E7-B80B5B023486" name="Servicios">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<generatorID>DBB0499E-75BF-20D2-1A34-0F796E6A2FB5</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idServicio" id="78F72DEA-B06B-E9AC-EE93-21651D8B9657">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el identificador de la tupla de servicios, es una llave primaria]]></commentInRDBMS>
+<generatorID>D48497E9-C624-F170-8BA0-B2CE8C2E5F7E</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="D506DF8A-E191-98FA-11E8-85CD46E02DE4">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se describe el servicio]]></commentInRDBMS>
+<generatorID>7098C349-5505-2D1B-B9C0-F51E318936AB</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_id" id="8D3B2A1F-7CF4-5630-6AB6-94D0EAC413D7">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<generatorID>9066BAC0-6B2D-B08B-838D-8207DA00A492</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7341B99C-B591-A4C0-2088-ABD9FC426296" referredColumn="63E37CFC-3A8E-D1F4-2699-7B9A8F4F3029"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D58E509C-DB52-8843-7B77-2F30B1C72FEE" name="Servicios_PK">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<generatorID>72426B5A-5F30-F77B-E495-7D04A06830A9</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78F72DEA-B06B-E9AC-EE93-21651D8B9657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06AA7874-365F-4F15-B13D-EC9AFBE0F865" name="Servicios_Clientes_FK">
+<createdBy>CEAS</createdBy>
+<createdTime>2022-12-15 14:18:19 UTC</createdTime>
+<generatorID>358A4DFE-8B29-BD67-ED17-B84134786697</generatorID>
+<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D3B2A1F-7CF4-5630-6AB6-94D0EAC413D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
