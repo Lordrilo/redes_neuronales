@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloLógicoAgencias" id="7A3960BE-D2F7-B300-9276-0F27B45CD314" version="3.5">
-<createdBy>CEAS</createdBy>
-<createdTime>2022-12-15 13:53:32 UTC</createdTime>
-<ownerDesignName>ModeloLógicoAgencias</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>7A3960BE-D2F7-B300-9276-0F27B45CD314</designId>
-</OSDM_Design>
